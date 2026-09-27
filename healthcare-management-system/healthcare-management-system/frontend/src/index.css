@@ -1,0 +1,15 @@
+body { font-family: -apple-system, Arial, sans-serif; margin: 0; background: #f4f6f8; color: #1f2937; }
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; background: #0f766e; color: white; }
+.navbar a { color: white; text-decoration: none; margin-right: 1rem; }
+.page-content { padding: 2rem; max-width: 1000px; margin: 0 auto; }
+table { width: 100%; border-collapse: collapse; background: white; }
+th, td { padding: 0.75rem; border-bottom: 1px solid #e5e7eb; text-align: left; }
+.card { background: white; padding: 1rem 1.5rem; border-radius: 8px; margin-bottom: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.auth-page { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+.auth-page form { display: flex; flex-direction: column; gap: 0.75rem; width: 280px; }
+input, button { padding: 0.6rem; font-size: 1rem; }
+button { background: #0f766e; color: white; border: none; border-radius: 4px; cursor: pointer; }
+.dashboard-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 1.5rem; }
+.dashboard-card { background: white; padding: 2rem; text-align: center; border-radius: 8px; text-decoration: none; color: #0f766e; font-weight: 600; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.upload-form { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+.error { color: #dc2626; }
